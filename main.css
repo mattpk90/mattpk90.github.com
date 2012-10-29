@@ -49,7 +49,7 @@ h1 { text-shadow: 2px 2px 8px #000; }
 .tri { font-size: 0.8em; margin-right: -1px; }
 
 #latestcontainer { width: 30%; float: left; 
-	margin: 0em 1% 0em 2%; }
+	margin: 0em 0.5% 0em 1%; }
 
 #latestvideo { float: left; width: 100%; height: 13em;
 	background-color: #0b2337; border: 2px solid;
@@ -57,21 +57,27 @@ h1 { text-shadow: 2px 2px 8px #000; }
 	-moz-border-radius: 0.5em; -webkit-border-radius: 0.5em; 
 	margin: 2em 0em 0.5em 0em; }
 
-#latestthreads { float: left; width: 100%; height: 10em;
+#latestthreads { float: left; width: 100%; height: 9.5em;
 	background-color: #0b2337; border: 2px solid;
 	border-color: #4d6273; border-radius: 0.5em;
 	-moz-border-radius: 0.5em; -webkit-border-radius: 0.5em; 
-	margin: 2em 0em 0em 0em; }
+	margin: 2em 0em 0em 0em; text-align: center; }
 
 #news { float: left; background-color: #0b2337; border: 2px solid;
-	border-color: #4d6273; border-radius: 0.5em; width: 45%;
+	border-color: #4d6273; border-radius: 0.5em; width: 47%;
 	-moz-border-radius: 0.5em; -webkit-border-radius: 0.5em; 
-	margin: 2em 1% 0em 1%; height: 25em; }
+	margin: 2em 0.5% 1.5em 2.5%; height: 25em; }
 
 #who { float: right; background-color: #0b2337; border: 2px solid;
 	border-color: #4d6273; border-radius: 0.5em; width: 15%;
 	-moz-border-radius: 0.5em; -webkit-border-radius: 0.5em; 
-	margin: 2em 2% 0em 1%; height: 25em; }
+	margin: 2em 1% 0em 0.5%; height: 25em; }
 
-#footer { width: 98%; margin: 0.1em auto 2px auto; text-align: center;
-	background-color: transparent; height: 1em; clear: both; }
+footer { width: 98%; margin: 0em auto 0em auto; text-align: center;
+	background-color: transparent; height: 1em; clear: both; font-size: 0.8em; }
+
+
+.title { font-family: 'badaboom_bbregular', 'Palatino', serif;
+	text-align: center; padding: 0; margin: -0.5em 0em 0em 0em; font-size: 2em; }
+
+.who { line-height: 90%; margin-top: -0.9em; }
