@@ -28,6 +28,7 @@ h1 { text-shadow: 2px 2px 8px #000; }
 
 #nav {
   display: block;
+  width: 100%;
   height: 3em;
   margin: 0.5em auto auto auto;
   background-color: transparent;
@@ -40,9 +41,37 @@ h1 { text-shadow: 2px 2px 8px #000; }
 
 #nav ul li a { text-decoration: none; color: #1c3850;
 	background-color: white; font-size: 2em; margin: 0em 0.1em 0em 0.1em; 
-	padding: 0.2em 0.3em 0.2em 0.3em; border-radius: 10px; -moz-border-radius: 10px; 
+	padding: 0.2em 0.3em 0.2em 0.3em; border-radius: 0.2em; -moz-border-radius: 0.2em; 
 	-webkit-border-radius: 0.2em; letter-spacing: 0.1em; line-height: 1.5em; }
 
 #nav ul li a:hover { color: #fff; background-color: #0b2337; }
 
 .tri { font-size: 0.8em; margin-right: -1px; }
+
+#latestcontainer { width: 30%; float: left; 
+	margin: 0em 1% 0em 2%; }
+
+#latestvideo { float: left; width: 100%; height: 13em;
+	background-color: #0b2337; border: 2px solid;
+	border-color: #4d6273; border-radius: 0.5em;
+	-moz-border-radius: 0.5em; -webkit-border-radius: 0.5em; 
+	margin: 2em 0em 0.5em 0em; }
+
+#latestthreads { float: left; width: 100%; height: 10em;
+	background-color: #0b2337; border: 2px solid;
+	border-color: #4d6273; border-radius: 0.5em;
+	-moz-border-radius: 0.5em; -webkit-border-radius: 0.5em; 
+	margin: 2em 0em 0em 0em; }
+
+#news { float: left; background-color: #0b2337; border: 2px solid;
+	border-color: #4d6273; border-radius: 0.5em; width: 45%;
+	-moz-border-radius: 0.5em; -webkit-border-radius: 0.5em; 
+	margin: 2em 1% 0em 1%; height: 25em; }
+
+#who { float: right; background-color: #0b2337; border: 2px solid;
+	border-color: #4d6273; border-radius: 0.5em; width: 15%;
+	-moz-border-radius: 0.5em; -webkit-border-radius: 0.5em; 
+	margin: 2em 2% 0em 1%; height: 25em; }
+
+#footer { width: 98%; margin: 0.1em auto 2px auto; text-align: center;
+	background-color: transparent; height: 1em; clear: both; }
