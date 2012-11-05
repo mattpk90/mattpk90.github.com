@@ -44,7 +44,7 @@ nav { display: block; width: 100%; height: 2em;
 nav a { text-decoration: none; background-color: white; 
 	margin: 0em 0.1em 0em 0.1em; padding: 0.2em 0.3em 0.2em 0.3em; 
 	border-radius: 0.2em; -moz-border-radius: 0.2em; 
-	-webkit-border-radius: 0.2em; }
+	-webkit-border-radius: 0.2em; color: #1c3850; }
 
 nav a:visited { color: #1c3850; }
 
@@ -81,14 +81,14 @@ nav a:hover { color: #fff; background-color: #0b2337; }
 		width: 90%; background-color: red; border-radius: 0.3em; 
 		-moz-border-radius: 0.3em; -webkit-border-radius: 0.3em;
 		margin: 0.2em auto 0em auto; min-height: 10%; display: block;
-		position: relative; font-size: 1.3em; }
+		position: relative; font-size: 1.2em; overflow: hidden; }
 
 	.whoitem p { margin: 0.4em 0em 0em 0em; padding: 0.2em 0em 0em 0em;
     color: white; font-weight: 900; }
 
     #who h2 { font-size: 1em; }
 
-    #who img { float: right; position: absolute; top: -10px; right: 0; }
+    #who img { float: right; position: absolute; top: -6px; right: 0; }
 
 footer { width: 98%; margin: 0em auto 0em auto; text-align: center;
 	background-color: transparent; height: 1em; clear: both; font-size: 0.8em; }
