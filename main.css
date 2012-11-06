@@ -6,8 +6,10 @@
 
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-html, button, input, select, textarea { font-family: "Palatino", serif; 
+html, button, input, select, textarea { font-family: "Verdana", sans-serif; 
 	color: #fff; height: 90%; }
+
+input { color: black; }
 
 body { background-color: #1c3850; height: 90%; 
 	background-image: url(images/pattern.png); }
@@ -23,7 +25,7 @@ body { background-color: #1c3850; height: 90%;
 	padding: 0; margin: 0; }
 
 a { color: #fff; text-decoration: none; }
-a:visited { color: #ccc; text-decoration: none; }
+a:visited { color: #fff; text-decoration: none; }
 a:hover { color: #ccc; text-decoration: none; }
 a:focus { outline: none; text-decoration: none; }
 
@@ -32,7 +34,21 @@ a:focus { outline: none; text-decoration: none; }
 	color: white; letter-spacing: 0.1em; font-size: 6em; 
 	padding: 0; margin: 0em; display: inline-block; }
 
+	#title a:hover { color: #fff; }
+
 h1 { text-shadow: 2px 2px 8px #000; }
+
+#panel { float: right; }
+
+#panel button { color: black; }
+
+#login { height: 2em; width: 25.5em; background-color: #0b2337;
+	border-radius: 0.2em; -moz-border-radius: 0.2em; 
+	-webkit-border-radius: 0.2em; padding: 0.2em;}
+
+#search { height: 2em; width: 16em; background-color: #0b2337;
+	border-radius: 0.2em; -moz-border-radius: 0.2em; margin-top: 5px;
+	-webkit-border-radius: 0.2em; padding: 0.2em; float: right; }
 
 nav { display: block; width: 100%; height: 2em;
 	margin: 0.5em auto 0em auto;
@@ -71,6 +87,14 @@ nav a:hover { color: #fff; background-color: #0b2337; }
 	border-color: #4d6273; border-radius: 0.5em; width: 47%;
 	-moz-border-radius: 0.5em; -webkit-border-radius: 0.5em; 
 	margin: 2em 0.5% 1.5em 2.5%; min-height: 77%; position: relative; }
+
+	.newsitem { width: 90%; background-color: #fff; color: #000;
+		margin: 0.3em auto; border-radius: 0.5em; font-size: 13px;
+		-moz-border-radius: 0.5em; -webkit-border-radius: 0.5em;
+		padding: 0.5em; }
+
+		.newsitem h3 { margin: 0; }
+		.newsitem a { color: #000; } 
 
 #who { float: right; background-color: #0b2337; border: 2px solid;
 	border-color: #4d6273; border-radius: 0.5em; width: 15%;
