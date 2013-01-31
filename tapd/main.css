@@ -1,0 +1,216 @@
+/*
+	background colour: #151515
+	text color: #d6d3c0
+*/
+
+html, body { height: 100%; margin: 0; padding: 0 5px 0 5px; background-image: url('images/woodbg.jpg'); 
+	background-repeat: repeat; background-color: #151515; 
+	color: #d6d3c0; font-family: palatino linotype, serif; }
+
+a:link { text-decoration: none; color: #d6d3c0; }
+a:visited { text-decoration: none; color: #d6d3c0; }
+a:active { text-decoration: none; color: #d6d3c0; }
+a:hover { text-decoration: none; color: #d6d3c0; }
+
+#container { background-color: transparent; width: 100%; height: 99%; position: relative; margin: auto; }
+
+#top { width: 100%; height: 7%; margin: 0; padding: 5px 0 8px 0; }
+
+#stage { width: 100%; height: 92%; padding: 0; margin: 0; }
+
+#logoDiv { width: 10%; height: 80%; background-repeat: no-repeat; 
+	position: relative; margin-top: -5px; }
+	.logo { display: block; width: 10%; }
+
+#login { background-color: #151515; width: 40%; height: 90%; float: right; margin-left: 4px; 
+	line-height: 35px; border-color: #d6d3c0; 
+	border-style: solid; border-width: 2px; border-radius: 10px; 
+	-moz-border-radius: 10px; -webkit-border-radius: 10px; }
+
+	.panelForm { float: left; padding: 0; margin: 0; margin-left: 3px; }
+	.panelRegister { float: right; padding: 0; margin: 0; margin-right: 30px; }
+
+#nav { height: 90%; width: 50%; float: right; margin: auto; background-color: #151515;
+	border-color: #d6d3c0; border-style: solid; border-width: 2px; border-radius: 10px; 
+	-moz-border-radius: 10px; -webkit-border-radius: 10px; line-height: 35px; }
+
+	#nav ul { padding: 0; margin: 0; float: left; }
+	#nav li { display: inline; list-style-type: none; }
+
+	#nav ul li a { margin: 0; padding: 0 10px 0 10px;
+    	background-color: #151515; color: #d6d3c0; border-radius: 10px; 
+		-moz-border-radius: 10px; -webkit-border-radius: 10px; }
+
+	#nav ul li a:hover { margin: 0; padding: 0 10px 0 10px;
+	    background-color: #d6d3c0; color: #151515; border-radius: 10px; 
+		-moz-border-radius: 10px; -webkit-border-radius: 10px; }
+
+.card { background-color: #2986ce; width: 100px; height: 160px; float: left; position: absolute;
+	text-align: center; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+
+	.cardName { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding: 1px;
+		width: 100px; height: 22px; text-align: center; }
+
+	.cardCost { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; 
+		width: 100px; text-align: center; font-size: 10px; }
+
+	.cardType { overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+		text-align: center; font-size: 10px; }
+
+	.cardText { overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+		text-align: center; font-size: 10px; }
+
+	.cardStats { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; position: relative; bottom: 20px; }
+		.cardPower { display: inline; }
+		.cardToughness { display: inline; }
+
+
+	/* classes for infobox */
+	.infoCardName { padding: 1px; text-align: center; word-wrap: break-word; }
+
+	.infoCardCost { text-align: center; font-size: 10px; word-wrap: break-word; }
+
+	.infoCardType { text-align: center; font-size: 10px; word-wrap: break-word; }
+
+	.infoCardText { text-align: center; font-size: 10px; word-wrap: break-word; }
+
+	.infoCardStats { position: relative; bottom: 20px; text-align: center; }
+		.infoCardPower { display: inline; word-wrap: break-word; }
+		.infoCardToughness { display: inline; word-wrap: break-word; }
+
+.selected { background-color: #1443a3 !important; }
+
+.cardTapped { -moz-transform: rotate(90deg); -webkit-transform: rotate(90deg); }
+
+.textbox { width: 100px; height: 140px; text-overflow: ellipsis; line-height: 15px;
+	background-color: transparent; word-wrap: break-word; font-size: 15px; }
+
+.cardInfoBox { width: 100px; height: 20px; background-color: #848076; 
+	z-index: 2; float: left; position: absolute; bottom: 0; 
+	-webkit-border-bottom-right-radius: 9px;
+	-webkit-border-bottom-left-radius: 9px;
+	-moz-border-radius-bottomright: 9px;
+	-moz-border-radius-bottomleft: 9px;
+	border-bottom-right-radius: 9px;
+	border-bottom-left-radius: 9px; }
+
+
+.graveyardPlaceholder { background-color: #2986ce; width: 100px; height: 160px;
+	word-wrap: break-word; border-radius: 10px;					
+	position: relative; margin: 0px auto; margin-bottom: 5px;
+	-moz-border-radius: 10px; -webkit-border-radius: 10px; }
+
+.exiledPlaceholder { background-color: #2986ce; width: 100px; height: 160px;
+	word-wrap: break-word; border-radius: 10px;
+	position: relative; margin: 0px auto;
+	-moz-border-radius: 10px; -webkit-border-radius: 10px; }
+
+
+.libraryPlaceholder { background-color: #2E2E2E; width: 100px; height: 160px; position: relative; margin: 0px auto;
+	margin-bottom: 5px; border-color: #fff; border-width: 2px;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+
+	.backDesign { width: 86px; height: 146px; background-color: #e6e3d3;
+		position: absolute; top: 50%; margin-top: -73px; margin-left: 7px;
+		border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+		background-image: url('images/logocardbg.png'); background-repeat: no-repeat;
+		background-position: 50%; }
+
+.faceDown { background-color: #2E2E2E !important; width: 100px; height: 160px; position: relative; margin: 0px auto;
+	margin-bottom: 5px; border-color: #fff; border-width: 2px;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+		
+#battlefield { background-color: transparent; width: 80%; height: 60%; 
+	margin: auto; margin-bottom: 5px; float: left; text-align: center;
+	border-color: #d6d3c0; border-style: dashed; border-width: 2px;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+
+
+#info { background-color: #151515; width: 19%; height: 60%; margin: auto; margin-bottom: 5px; float: right;
+	border-color: #d6d3c0; border-style: solid; border-width: 2px;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+
+	.infoheader { text-align: center; margin: auto; margin: 0; padding: 0; }
+
+	#topinfo { background-color: #151515; width: 100%; height: 69%; margin: auto; float: right;
+		border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+
+		#cardinfo { background-color: transparent; width: 100%; height: 90%; float: left;
+			border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+
+	#cardcontrols { width: 100%; height: 30%; float: left;
+		border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; position: relative; }
+
+		#buttonsDiv { width: 100%; height: 70%; position: absolute; bottom: 0; text-align: center; }
+			#buttonsDiv table { padding: 0; margin: auto; margin-top: -10px; }
+		
+#sortable { list-style-type: none; margin: 0; padding: 0; }
+#sortable li { margin: 0; padding: 1px; float: left; width: 105px; height: 165px; }
+
+#searchDialog { max-height: 300px; max-width: 400px; overflow-y: auto; border-color: #d6d3c0; 
+	border-style: dashed; border-width: 2px; border-radius: 10px; -moz-border-radius: 10px; 
+	-webkit-border-radius: 10px; }
+
+#tokenDialog { max-height: 300px; max-width: 400px; overflow-y: auto; border-color: #d6d3c0; 
+	border-style: dashed; border-width: 2px; border-radius: 10px; -moz-border-radius: 10px; 
+	-webkit-border-radius: 10px; }
+
+
+.inHand { background-color: #2986ce; width: 100px; height: 160px; float: left; position: absolute;
+	text-align: center; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+
+#hand { background-color: transparent; width: 69%; height: 36%; float: left; margin-right: 9px;
+	border-color: #d6d3c0; border-style: dashed; border-width: 2px;  max-height: 220px;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+
+#library { background-color: transparent; width: 10%; height: 36%; float: left; margin-right: 4px;
+	border-color: #d6d3c0; border-style: dashed; border-width: 2px; text-align: center; max-height: 220px; max-width: 130px;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+
+#graveyard { background-color: transparent; width: 9%; height: 36%; float: left; margin-left: 5px;
+	border-color: #d6d3c0; border-style: dashed; border-width: 2px; text-align: center; max-height: 220px; max-width: 130px;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }	
+
+#exile { background-color: transparent; width: 9%; height: 36%; float: right;
+	border-color: #d6d3c0; border-style: dashed; border-width: 2px; text-align: center; max-height: 220px; max-width: 130px;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+
+
+
+/* Add Deck Page */
+
+#addCardForm { background-color: transparent; width: 500px; height: 200px;
+	border-color: #d6d3c0; border-style: dashed;
+	border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+
+#leftSide { position: absolute; top: 80px; left: 10px; float: left; }
+
+#cardList { background-color: transparent; float: right; width: 380px; height: 500px;
+	list-style-type: none; margin-left: 600px; overflow-y: auto; }
+#cardList li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; 
+	font-size: 0.7em; height: 15px; width: 150px; float: right; overflow: hidden; }
+
+#libCounter { margin: 0; text-align: center; padding: 0; }
+#graveyardCounter { margin: 0; text-align: center; padding: 0; }
+#exiledCounter { margin: 0; text-align: center; padding: 0; }
+#deckCounter { margin: 0; padding: 0; float: right; }
+
+#deckManagementTrash { height: 100px; width: 200px; border-color: #d6d3c0; border-style: dashed; 
+	border-width: 2px; border-radius: 10px; -moz-border-radius: 10px; 
+	-webkit-border-radius: 10px; background-position: center; font-size: 12px;
+	text-align: center; float: left;
+	background-image: url('images/trash.png'); background-repeat: no-repeat; }
+
+#duplicateCard { height: 100px; width: 200px; border-color: #d6d3c0; border-style: dashed; 
+	border-width: 2px; border-radius: 10px; -moz-border-radius: 10px; 
+	-webkit-border-radius: 10px; background-position: center; font-size: 12px;
+	text-align: center; float: left; margin-left: 20px;
+	background-image: url('images/clone.png'); background-repeat: no-repeat; }
+
+#cardView { width: 300px; height: 200px; border-color: #d6d3c0; border-style: dashed; 
+	border-width: 2px; text-align: center; position: relative; word-wrap: break-word;
+	border-radius: 10px; background-color: transparent; float: right; margin-left: 10px;
+	-moz-border-radius: 10px; -webkit-border-radius: 10px; }
+
+.deckTitle { padding: 0; margin: 0; margin-right: 100px; float: right; }
+#countDiv { padding: 0; margin: 0; width: 200px; height: 20px; float: right; }

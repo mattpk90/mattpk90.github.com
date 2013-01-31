@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Deck</title>
+	<link rel="stylesheet" type="text/css" href="main.css" />
+	<link rel="stylesheet" type="text/css" href="jquery-ui-css.css" />
+	<script type='text/javascript' src='jquery.js'></script>
+	<script type='text/javascript' src='jquery-ui.js'></script>
+	
+	<script type='text/javascript'>	
+	function validate()
+	{
+		var e = document.forms["signupform"]["email"].value;
+		var p = document.forms["signupform"]["password"].value;
+		if(e == "" || p == "")
+		{
+			alert("You must enter an email and password.");
+			return false;
+		}
+		return true;
+	}
+	</script>
+</head>
+
+<body>
+	<a href="index.php"><button name="home" type="button"/>Home</button></a><br /><br />
+
+	<form onsubmit="return validate()" action="register.php" method="post" name="signupform">
+	<table>
+	<tr>	<td>Email:</td> <td><input type="text" name="email"/></td>				</tr>
+	<tr>	<td>Password:</td> <td><input type="password" name="password"/></td>	</tr>
+	<tr>	<td><button type="submit" name="register"/>Register</button></td>		</tr>
+	</table>
+	</form>
+</body>
+</html>
