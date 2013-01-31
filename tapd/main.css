@@ -22,14 +22,6 @@ a:hover { text-decoration: none; color: #d6d3c0; }
 	position: relative; margin-top: -5px; }
 	.logo { display: block; width: 10%; }
 
-#login { background-color: #151515; width: 40%; height: 90%; float: right; margin-left: 4px; 
-	line-height: 35px; border-color: #d6d3c0; 
-	border-style: solid; border-width: 2px; border-radius: 10px; 
-	-moz-border-radius: 10px; -webkit-border-radius: 10px; }
-
-	.panelForm { float: left; padding: 0; margin: 0; margin-left: 3px; }
-	.panelRegister { float: right; padding: 0; margin: 0; margin-right: 30px; }
-
 #nav { height: 90%; width: 50%; float: right; margin: auto; background-color: #151515;
 	border-color: #d6d3c0; border-style: solid; border-width: 2px; border-radius: 10px; 
 	-moz-border-radius: 10px; -webkit-border-radius: 10px; line-height: 35px; }
